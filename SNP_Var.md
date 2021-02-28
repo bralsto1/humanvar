@@ -6,8 +6,6 @@ date: "February 28th, 2021"
 
 ---
 
-
-
 #This is my code from class. The first block of code is for SNPs and their latitudinal variation!
 
 ```r
@@ -18,6 +16,9 @@ legend("topleft", c("African", "Admixed American", "East Asian", "European", "So
        col = c("red", "blue", "darkgreen", "salmon", "black"), pch=16, inset=0.02)
 ```
 
+<center>
+<img src = "Lat Variation rs1426654 Among 26 Human Populations" width=500px> </img>
+</center>
 
 #This is my code for the pie charts on the world map!
 
@@ -32,10 +33,15 @@ for (m in 1:26){
 
 box()
 ```
+<center>
+<img src = "Pie Charts of SNPs by Global Location" width=500px> </img>
+</center>
 
 #Here is the session info so you can make sure you are using the same packages.
 
-```r print(sessionInfo())```r
+```r 
+print(sessionInfo())
+```
 
 R version 3.6.1 (2019-07-05)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
