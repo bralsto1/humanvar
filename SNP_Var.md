@@ -1,4 +1,4 @@
-###This is my code from class. The first block of code is for SNPs and their latitudinal variation!
+#This is my code from class. The first block of code is for SNPs and their latitudinal variation!
 
 ```r
 plot(freq$Allele_A, freq$lat, xlab="f(A) rs1426654", ylab="latitude",
@@ -9,7 +9,7 @@ legend("topleft", c("African", "Admixed American", "East Asian", "European", "So
 ```
 
 
-###This is my code for the pie charts on the world map!
+#This is my code for the pie charts on the world map!
 
 ```r
 map("worldHires", xlim = c(-120,142), ylim = c(-12,72), col = "gray", fill = FALSE)
