@@ -17,7 +17,7 @@ legend("topleft", c("African", "Admixed American", "East Asian", "European", "So
 ```
 
 <center>
-<img src = "Lat Variation rs1426654 Among 26 Human Populations" width=500px> </img>
+<img src = "Lat Var" width=500px> </img>
 </center>
 
 #This is my code for the pie charts on the world map!
@@ -34,7 +34,7 @@ for (m in 1:26){
 box()
 ```
 <center>
-<img src = "Pie Charts of SNPs by Global Location" width=500px> </img>
+<img src = "Pie Charts" width=500px> </img>
 </center>
 
 #Here is the session info so you can make sure you are using the same packages.
